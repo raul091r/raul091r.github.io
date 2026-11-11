@@ -1,0 +1,120 @@
+:root {
+  color-scheme: dark;
+  --bg-deep: #0B0630;
+  --bg-mid: #2A0A5E;
+  --neon-pink: #FF2E97;
+  --neon-cyan: #00F0FF;
+  --sunset-orange: #FF9E3D;
+  --sun-yellow: #FFE45E;
+  --text-main: #F8F4FF;
+  --text-muted: #B9A9E0;
+  --panel-bg: rgb(11 6 48 / 88%);
+  --panel-line: rgb(0 240 255 / 72%);
+  --font-logo: "Monoton", "Bungee Shade", fantasy;
+  --font-heading: "Righteous", "Audiowide", sans-serif;
+  --font-body: "Poppins", "Inter", sans-serif;
+  --page-width: 1160px;
+  --space-page: clamp(1.25rem, 5vw, 5rem);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  isolation: isolate;
+  display: flex;
+  flex-direction: column;
+  background:
+    radial-gradient(ellipse 74% 27% at 50% 43%, rgb(255 46 151 / 20%), transparent 100%),
+    linear-gradient(180deg, var(--bg-deep) 0%, var(--bg-mid) 59%, #48105f 78%, var(--bg-deep) 100%);
+  color: var(--text-main);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+body::before {
+  position: fixed;
+  z-index: -1;
+  inset: 0;
+  background-image: url("../images/decorative/night-drive-silhouettes.svg");
+  background-position: center bottom 3.5rem;
+  background-repeat: no-repeat;
+  background-size: min(100vw, 1200px) auto;
+  content: "";
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+body::after {
+  position: fixed;
+  z-index: 10;
+  inset: 0;
+  animation: scanline-drift 18s linear infinite;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgb(248 244 255 / 2.5%) 0,
+    rgb(248 244 255 / 2.5%) 1px,
+    transparent 1px,
+    transparent 5px
+  );
+  content: "";
+  pointer-events: none;
+}
+
+img,
+svg {
+  display: block;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  color: inherit;
+  font: inherit;
+}
+
+::selection {
+  background: var(--neon-cyan);
+  color: var(--bg-deep);
+}
+
+:focus-visible {
+  outline: 3px solid var(--sun-yellow);
+  outline-offset: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+@keyframes scanline-drift {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 0 100vh;
+  }
+}

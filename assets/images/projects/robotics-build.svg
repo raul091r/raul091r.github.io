@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="450" viewBox="0 0 720 450" role="img" aria-labelledby="title description">
+  <title id="title">Robotics build photo placeholder</title>
+  <desc id="description">Placeholder graphic for a photo of the robotics project build.</desc>
+  <rect width="720" height="450" fill="#2A0A5E"/>
+  <path d="M103 340h514" stroke="#00F0FF" stroke-linecap="round" stroke-width="10"/>
+  <rect x="254" y="193" width="211" height="126" rx="18" fill="#0B0630" stroke="#00F0FF" stroke-width="5"/>
+  <rect x="307" y="129" width="105" height="67" rx="13" fill="#FF2E97"/>
+  <circle cx="338" cy="162" r="8" fill="#0B0630"/><circle cx="381" cy="162" r="8" fill="#0B0630"/>
+  <path d="M360 129V96m-57 223-25 34m139-34 25 34" stroke="#F8F4FF" stroke-linecap="round" stroke-width="9"/>
+  <circle cx="295" cy="347" r="22" fill="#0B0630"/><circle cx="426" cy="347" r="22" fill="#0B0630"/>
+  <text x="360" y="414" fill="#F8F4FF" font-family="Arial, sans-serif" font-size="20" letter-spacing="2" text-anchor="middle">ADD A BUILD PHOTO HERE</text>
+</svg>

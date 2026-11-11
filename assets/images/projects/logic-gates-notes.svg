@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="450" viewBox="0 0 720 450" role="img" aria-labelledby="title description">
+  <title id="title">Logic Gates notes placeholder</title>
+  <desc id="description">Placeholder graphic for the project's notes or truth table.</desc>
+  <rect width="720" height="450" fill="#23084C"/>
+  <rect x="166" y="52" width="388" height="326" rx="6" fill="#0B0630" stroke="#00F0FF" stroke-width="3"/>
+  <path d="M200 135h320M200 185h320M200 235h320M200 285h320M200 335h320" stroke="#684684" stroke-width="2"/>
+  <path d="M270 118v217m100-217v217m100-217v217" stroke="#684684" stroke-width="2"/>
+  <text x="204" y="105" fill="#FF2E97" font-family="Arial, sans-serif" font-size="18" font-weight="700">ADD NOTES OR TRUTH TABLE</text>
+  <text x="221" y="169" fill="#00F0FF" font-family="Arial, sans-serif" font-size="20">0</text>
+  <text x="321" y="169" fill="#00F0FF" font-family="Arial, sans-serif" font-size="20">1</text>
+  <text x="421" y="169" fill="#00F0FF" font-family="Arial, sans-serif" font-size="20">?</text>
+  <text x="360" y="416" fill="#B9A9E0" font-family="Arial, sans-serif" font-size="19" letter-spacing="2" text-anchor="middle">REPLACE WITH A PROJECT IMAGE</text>
+</svg>

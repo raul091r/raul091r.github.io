@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="450" viewBox="0 0 720 450" role="img" aria-labelledby="title description">
+  <title id="title">Logic Gates circuit photo placeholder</title>
+  <desc id="description">Placeholder graphic for a photo of the Logic Gates project circuit.</desc>
+  <rect width="720" height="450" fill="#2A0A5E"/>
+  <path d="M0 70h720M0 380h720" stroke="#684684" stroke-width="2"/>
+  <path d="M120 144h120m-120 162h120m155-153h110m-110 144h110" fill="none" stroke="#FF2E97" stroke-linecap="round" stroke-width="7"/>
+  <rect x="240" y="111" width="155" height="217" rx="8" fill="#0B0630" stroke="#00F0FF" stroke-width="4"/>
+  <path d="M273 163h89m-89 55h89m-89 55h89" stroke="#684684" stroke-width="8"/>
+  <circle cx="120" cy="144" r="11" fill="#FF2E97"/><circle cx="120" cy="306" r="11" fill="#FF2E97"/>
+  <circle cx="505" cy="153" r="11" fill="#00F0FF"/><circle cx="505" cy="297" r="11" fill="#00F0FF"/>
+  <text x="360" y="405" fill="#F8F4FF" font-family="Arial, sans-serif" font-size="21" letter-spacing="2" text-anchor="middle">ADD CIRCUIT PHOTO HERE</text>
+</svg>

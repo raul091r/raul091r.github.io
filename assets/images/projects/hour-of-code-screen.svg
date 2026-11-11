@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="450" viewBox="0 0 720 450" role="img" aria-labelledby="title description">
+  <title id="title">Hour of Code screenshot placeholder</title>
+  <desc id="description">Placeholder graphic for a screenshot from the Hour of Code activity.</desc>
+  <rect width="720" height="450" fill="#2A0A5E"/>
+  <rect x="76" y="55" width="568" height="326" rx="12" fill="#0B0630" stroke="#00F0FF" stroke-width="4"/>
+  <path d="M77 98h566" stroke="#684684" stroke-width="3"/>
+  <circle cx="105" cy="77" r="7" fill="#FF2E97"/><circle cx="129" cy="77" r="7" fill="#FFE45E"/><circle cx="153" cy="77" r="7" fill="#00F0FF"/>
+  <rect x="121" y="135" width="194" height="208" rx="8" fill="#23084C"/>
+  <rect x="348" y="135" width="234" height="42" rx="5" fill="#2A0A5E"/>
+  <rect x="348" y="196" width="234" height="42" rx="5" fill="#2A0A5E"/>
+  <rect x="348" y="257" width="234" height="42" rx="5" fill="#2A0A5E"/>
+  <path d="M170 228h98m-49-49v98m-48-49 48-49 49 49" stroke="#FF2E97" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <text x="360" y="418" fill="#F8F4FF" font-family="Arial, sans-serif" font-size="20" letter-spacing="2" text-anchor="middle">REPLACE WITH YOUR SCREENSHOT</text>
+</svg>

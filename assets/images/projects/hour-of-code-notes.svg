@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="450" viewBox="0 0 720 450" role="img" aria-labelledby="title description">
+  <title id="title">Hour of Code finished work placeholder</title>
+  <desc id="description">Placeholder graphic for notes or finished work from the Hour of Code activity.</desc>
+  <rect width="720" height="450" fill="#23084C"/>
+  <rect x="143" y="54" width="434" height="326" rx="6" fill="#0B0630" stroke="#00F0FF" stroke-width="3"/>
+  <path d="M181 126h302m-302 55h255m-255 55h302m-302 55h206" stroke="#684684" stroke-linecap="round" stroke-width="9"/>
+  <circle cx="494" cy="236" r="43" fill="#2A0A5E"/>
+  <path d="m475 236 14 14 27-31" fill="none" stroke="#00F0FF" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <text x="360" y="418" fill="#B9A9E0" font-family="Arial, sans-serif" font-size="19" letter-spacing="2" text-anchor="middle">ADD FINISHED WORK OR NOTES</text>
+</svg>
